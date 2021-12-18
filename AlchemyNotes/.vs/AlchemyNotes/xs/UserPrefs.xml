@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{D6BF032B-2F72-4DDC-91AB-982BBD08393D}|Default">
+  <MonoDevelop.Ide.ItemProperties.AlchemyNotes PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlchemyNotes/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="AlchemyNotes/Views/Home/Index.cshtml" Line="8" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AlchemyNotes" expanded="True">
+            <Node name="AlchemyNotes" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
