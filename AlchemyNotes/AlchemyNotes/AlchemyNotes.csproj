@@ -9,4 +9,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="5.0.13" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Note\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Note\" />
+  </ItemGroup>
 </Project>
