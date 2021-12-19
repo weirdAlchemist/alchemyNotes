@@ -1,12 +1,13 @@
-﻿
-const noteApp = Vue.createApp({
+﻿const noteVueApp = Vue.createApp({
     data() {
         return {
             pens: [],
             blub: 'lol'
         }
     },
-    computed: {},
+    computed: {
+        ...Pinia.mapStores(useLolStore),
+    },
     watch: {
         pens(newPens) {
             if (newPens.length == 0)
@@ -24,7 +25,16 @@ const noteApp = Vue.createApp({
         changeVal() {
             this.blub = "xxx";
         }
+    },
+    components: {
+        'somecomponent' : SomeComponent
     }
-}).mount('#noteapp');
+});
+
+
+const pinia = Pinia.createPinia();
+noteVueApp.use(pinia);
+
+const noteApp = noteVueApp.mount('#noteapp');
 
 

@@ -11,8 +11,17 @@
 
   <ItemGroup>
     <None Remove="Views\Note\" />
+    <None Remove="Views\VueComponents\" />
+    <None Remove="Views\VueComponents\someComponent.vue" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Note\" />
+    <Folder Include="Views\VueComponents\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\VueComponents\someComponent.vue">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 </Project>
